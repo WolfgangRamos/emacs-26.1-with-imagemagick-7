@@ -1,0 +1,15 @@
+* emacs-26.1-with-imagemagick-7
+
+This repository contains a recipe for building emacs under mingw/sys2 with imagemagick 7 support.
+
+This recipe was created combining
+
+- the original mingw package recipe for building emacs ([[https://github.com/Alexpux/MINGW-packages]]) with
+- the imagemagick 7 patch from [[https://github.com/m-parashar/emax64]]
+
+* Licence
+
+- Emacs is published under the GPL v3 Licence.
+- The original mingw package recipe for building emacs is published under BSD-3-Clause Licence.
+
+See the corresponding licence file for details on copying, etc.
