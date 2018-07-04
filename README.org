@@ -1,15 +1,29 @@
-* emacs-26.1-with-imagemagick-7
+* Emacs 26.1 64 bit with imagemagick 7 support
 
-This repository contains a recipe for building emacs under mingw/sys2 with imagemagick 7 support.
+This repository contains a recipe for building emacs with imagemagick
+7 support for the mingw64 architecture.
 
 This recipe was created combining
 
-- the original mingw package recipe for building emacs ([[https://github.com/Alexpux/MINGW-packages]]) with
+- the original mingw package recipe for building emacs
+  ([[https://github.com/Alexpux/MINGW-packages]]) with
 - the imagemagick 7 patch from [[https://github.com/m-parashar/emax64]]
+
+** How to build emacs yourself
+
+See [[https://github.com/msys2/msys2/wiki/Creating-Packages]] for general
+information on building mingw packages. To build the package clone the
+repo then run =MINGW_INSTALLS=mingw64 makepkg-mingw --skippgpcheck
+-sCLf= in the repo-clone's root dir.
+
+** Known Issues
+
+Building emacs for the mingw32 architecture currently fails. I won't
+look into this, because I only use the 64 bit version.
 
 * Licence
 
-- Emacs is published under the GPL v3 Licence.
+- The emacs imagemagick 7 patch is published under the GPL v3 Licence.
 - The original mingw package recipe for building emacs is published under BSD-3-Clause Licence.
 
 See the corresponding licence file for details on copying, etc.
