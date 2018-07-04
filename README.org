@@ -13,8 +13,8 @@ This recipe was created combining
 
 See [[https://github.com/msys2/msys2/wiki/Creating-Packages]] for general
 information on building mingw packages. To build the package clone the
-repo then run =MINGW_INSTALLS=mingw64 makepkg-mingw --skippgpcheck
--sCLf= in the repo-clone's root dir.
+repo then run =MINGW_INSTALLS=mingw64 makepkg-mingw -sCLf= in the
+repo-clone's root dir.
 
 ** Known Issues
 
