@@ -9,7 +9,11 @@ This recipe was created combining
   ([[https://github.com/Alexpux/MINGW-packages]]) with
 - the imagemagick 7 patch from [[https://github.com/m-parashar/emax64]]
 
+The build requires Imagemagick v7.0.7.28. You find this package under releases.
+
 ** How to build emacs yourself
+
+Install Imagemagick v7.0.7.28.
 
 See [[https://github.com/msys2/msys2/wiki/Creating-Packages]] for general
 information on building mingw packages. To build the package clone the
